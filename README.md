@@ -53,3 +53,4 @@ Recreate the virtual environment:
     This should ensure the virtual environment uses your global Python version.
 
 Follow these steps, and you should be ready to use the Face Recognition App without issues!
+# face-recognition-python
