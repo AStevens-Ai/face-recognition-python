@@ -18,9 +18,9 @@ pyenv global 3.10.13
 Note: I can't confirm if this works on Windows or macOS, so apologies in advance.
 Steps to Prepare
 
-    Confirm your Python version is 3.10.13.
+Confirm your Python version is 3.10.13.
 
-    Activate the virtual environment with:
+Activate the virtual environment with:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -34,7 +34,7 @@ With the virtual environment activated, install the required dependencies:
     pip install git+https://github.com/ageitgey/face_recognition_models
 ```
 
-    These libraries are essential for the app to function properly.
+These libraries are essential for the app to function properly.
 
 Running the App
 
@@ -49,7 +49,7 @@ Virtual Environment Issues
 
 If you're having issues with the virtual environment not working (e.g., the global Python version isn't being used in the venv), here’s a solution:
 
-    Delete the current venv directory:
+Delete the current venv directory:
 ```bash
 sudo rm -r venv
 ```
@@ -60,7 +60,7 @@ Recreate the virtual environment:
     python3 -m venv venv
 ```
 
-    This should ensure the virtual environment uses your global Python version.
+This should ensure the virtual environment uses your global Python version.
 
 Follow these steps, and you should be ready to use the Face Recognition App without issues!
 # face-recognition-python
